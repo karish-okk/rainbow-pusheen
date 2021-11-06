@@ -1,6 +1,6 @@
 ﻿#include <iostream>
 #include <algorithm> //библиотека для сортировки массива
-#include <cmath>
+#include <cmath> //библиотека с математическими функциями
 using namespace std;
 
 int main()
@@ -15,9 +15,6 @@ int main()
     int arr[3];
 
 
-    cout << 99 % 1000;
-    cout << 100 % 1000;
-    cout << 897 % 1000;
     setlocale(LC_ALL, "rus");
     while (number_lesson != 0) {
         cout << "\nВведите номер задания от 1 до 6, или 0, если хотите выйти из программы\n";
